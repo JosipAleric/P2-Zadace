@@ -7,6 +7,7 @@ pozdrav = (lambda ime: ("Pozdrav " + ime))
 
 #Treca funkcija
 def dobrodoslica(funkcija):
-    return funkcija("Marko")
+    return funkcija("Josip")
 
 print(dobrodoslica(dobrodosao))
+print(dobrodoslica(pozdrav))
